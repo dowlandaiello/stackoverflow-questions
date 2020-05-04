@@ -1,0 +1,8 @@
+[package]
+name = "stackoverflow-questions"
+version = "0.1.0"
+authors = ["Dowland Aiello <dowlandaiello@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4.4", features = [ "default", "mysql", "r2d2", "serde_json", "numeric", "chrono" ] }
